@@ -4,8 +4,8 @@
 // root.appendChild(header);
 
 const div = React.createElement("div", {style: {border: "1px solid black"}}, [
-    React.createElement("h1", {}, "first h1"),
-    React.createElement("h1", {}, "second h1")
+    React.createElement("h1", {}, "first h2"),
+    React.createElement("h1", {}, "second h2")
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(div);
