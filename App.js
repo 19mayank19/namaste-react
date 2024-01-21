@@ -1,7 +1,5 @@
-// const header = document.createElement("h1");
-// header.innerHTML = "Hello from JS";
-// const root = document.getElementById("root");
-// root.appendChild(header);
+import React from "react";
+import ReactDOM from 'react-dom/client';
 
 const div = React.createElement("div", {style: {border: "1px solid black"}}, [
     React.createElement("h1", {}, "first h2"),
